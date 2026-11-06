@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import SearchBar from "../components/SearchBar";
 import BoardingCard from "../components/BoardingCard";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -8,7 +9,6 @@ function Home() {
       <Navbar />
 
       <section className="hero-section">
-
         <div className="hero-overlay">
 
           <h1>Find Your Perfect Boarding Place</h1>
@@ -20,7 +20,6 @@ function Home() {
           <SearchBar />
 
         </div>
-
       </section>
 
       <section className="featured-section">
@@ -50,6 +49,9 @@ function Home() {
         </div>
 
       </section>
+
+      <Footer />
+
     </>
   );
 }
